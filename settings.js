@@ -6,18 +6,27 @@ const {
    spanyol
 } = require(`./language`)
 
+//OpenAi || ChatGpt
+global.OpenAIKey = "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" //login to https://beta.openai.com/ to get apikey
+
 // Website Api (jgn di ganti tomlol)
 global.APIs = {
    alfa: 'https://api.zeeoneofc.my.id', //apabila link api eror, segera laporkan ke owner
 }
 
-// Free apikey (Apikey expired silahkan login terus ganti V12 dgn apikey lu)
+// beli apikey premium pc wa: 0887435047326
+// beli apikey premium pc wa: 0887435047326
 global.APIKeys = {
-   'https://api.zeeoneofc.my.id': 'ydofVS76', // 👉 login https://api.zeeoneofc.xyz to get apikey
+   'https://api.zeeoneofc.my.id': 'V12', // 👉 login https://api.zeeoneofc.my.id to get apikey
 }
-
+global.sewabotnya = `
+edit sewabot di file settings.js line 19
+`
 // setting 
-global.autoread = false // auto read message
+global.firtsChat = true //send firts message to new user
+global.autoread = true // auto read message
+global.antidelete = false // anti delete
+global.antiviewonce = true // anti view once
 global.autobio = false //auto ganti bio
 global.anticall = true //anti call 
 global.userRegister = false
@@ -27,7 +36,8 @@ global.autoblok212 = false //ubah jadi true biar nmr 212 di blok sama bot
 //Available in indonesia , english & spanyol 
 //You can request others language 
 global.language = indonesia //change indonesia to english if you don't understand the language used by the bot
-
+//global.language = english // use this for English language
+//global.language = spanyol // use this for Spanyol language
 
 // Other
 // Other
